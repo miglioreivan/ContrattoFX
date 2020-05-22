@@ -54,8 +54,8 @@ public class Controller {
         labelVia.setText(via);
         numero="+39 "+rand0+rand1;
         labelNumero.setText(numero);
-        labelMensile.setText(String.valueOf(costoMensile)+"€");
-        labelAlMinuto.setText(String.valueOf(costoMinuto)+"€");
+        labelMensile.setText(costoMensile+"€");
+        labelAlMinuto.setText(costoMinuto+"€");
     }
 
     public void cancel_click(){
